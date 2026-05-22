@@ -211,14 +211,7 @@ Example: `ughimire@epes.local`, `sadhikari@epes.local`
 
 ---
 
-## ⚙️ PowerShell Automation
 
-The entire infrastructure was built using PowerShell scripts:
-
-| Script | Purpose |
-|---|---|
-| `EPES_AD_Setup.ps1` | Creates OU structure, users, security groups |
-| `EPES_GPO_Setup.ps1` | Creates GPOs, shared folders, wallpapers, password policies |
 
 Key modules used:
 - `ActiveDirectory`
@@ -238,7 +231,7 @@ Key modules used:
 - ✅ NTFS & SMB Share Permissions
 - ✅ Print Server Configuration
 - ✅ Email Server Setup (hMailServer)
-- ✅ PowerShell Automation & Scripting
+
 - ✅ Windows Server 2022 Administration
 - ✅ VMware Workstation Virtualization
 
@@ -254,4 +247,4 @@ This lab is based on **Earthly Paradise Boarding School**, located in Besishahar
 
 Built by a passionate IT learner as a homelab project to demonstrate enterprise Active Directory skills.
 
-> *"Built with real intent — simulating real infrastructure for a real school."*
+
